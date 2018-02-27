@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -21,12 +22,14 @@ namespace sais
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            var x = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/app");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseFileServer(new FileServerOptions
                 {
-                    FileProvider = new PhysicalFileProvider("wwwroot/app");
+                    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\app"))
                 });
             }
 

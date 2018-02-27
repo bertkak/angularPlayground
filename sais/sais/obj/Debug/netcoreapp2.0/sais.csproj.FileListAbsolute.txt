@@ -1,0 +1,11 @@
+F:\dev\angularPlayground\sais\sais\bin\Debug\netcoreapp2.0\sais.deps.json
+F:\dev\angularPlayground\sais\sais\bin\Debug\netcoreapp2.0\sais.runtimeconfig.json
+F:\dev\angularPlayground\sais\sais\bin\Debug\netcoreapp2.0\sais.runtimeconfig.dev.json
+F:\dev\angularPlayground\sais\sais\bin\Debug\netcoreapp2.0\sais.dll
+F:\dev\angularPlayground\sais\sais\bin\Debug\netcoreapp2.0\sais.pdb
+F:\dev\angularPlayground\sais\sais\obj\Debug\netcoreapp2.0\sais.csprojResolveAssemblyReference.cache
+F:\dev\angularPlayground\sais\sais\obj\Debug\netcoreapp2.0\sais.csproj.CoreCompileInputs.cache
+F:\dev\angularPlayground\sais\sais\obj\Debug\netcoreapp2.0\sais.AssemblyInfoInputs.cache
+F:\dev\angularPlayground\sais\sais\obj\Debug\netcoreapp2.0\sais.AssemblyInfo.cs
+F:\dev\angularPlayground\sais\sais\obj\Debug\netcoreapp2.0\sais.dll
+F:\dev\angularPlayground\sais\sais\obj\Debug\netcoreapp2.0\sais.pdb

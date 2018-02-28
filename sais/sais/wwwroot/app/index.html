@@ -5,9 +5,7 @@
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/sweetalert/docs/assets/sweetalert/sweetalert.min.js"></script>
     <script src="controllers/config.js"></script>
-    <script src="controllers/myController.js"></script>
-    <!--<script src="bower_components/jQuery/dist/jquery.min.js"></script>-->
-    <!--<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>-->
+    <script src="controllers/mainController.js"></script>
     <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 
 
@@ -16,13 +14,35 @@
 
     <title></title>
 </head>
-<body ng-controller="myController">
-    IS THIS WORKING?
-    <br/>
-    {{message}}
-    <br/>
-    <div class="container"></div>
-    <div class="label label-danger">TEST</div>
-    <button class=".btn" type="button" ng-click="showAlert()">Show Alert!</button>
+<body ng-controller="mainController">
+    <br />
+    <!--<salary-input></salary-input>-->
+    <div class="mainbox col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Salary Input</h3>
+            </div>
+            <div class="panel-body">
+                <form>
+                    <div class="form-group row">
+                        <label for="salary" class="form-control-label col-sm-2 ">Your Salary</label>
+                        <div class="input-group col-sm-4">
+                            <div class="input-group-addon">$</div>
+                            <input class="form-control" type="number" />
+                            <div class="input-group-addon">.00</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+
+        
+        
+
+
+
 </body>
 </html>
